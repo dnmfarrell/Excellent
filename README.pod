@@ -43,6 +43,10 @@ Excellent comes with F<main.hs> which will run forever, printing Excellent numbe
   $ ./main
   [48,3468,140400,190476,216513,300625,334668,416768,484848,530901 ...
 
+=head2 Thanks
+
+Thanks to Tom Murphy and L<Andy Liang|https://github.com/aaliang> for helping with the Haskell code.
+
 =head2 See Also
 
 This module was inspired by brian d foy's L<articles|http://www.masteringperl.org/2015/05/computing-excellent-numbers/> on calculating Excellent Numbers with Perl, and Mark Jason Dominus' original L<article|http://blog.plover.com/2015/03/19/> on the same topic.
