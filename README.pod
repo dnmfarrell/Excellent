@@ -53,7 +53,7 @@ This module was inspired by brian d foy's L<articles|http://www.masteringperl.or
 
 =head2 Author
 
-David Farrell &copy; 2015
+David Farrell E<copy> 2015
 
 =head2 License
 
