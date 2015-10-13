@@ -8,9 +8,16 @@ Excellent - Haskell module for calculating Excellent numbers
 
 =head2 Synopsis
 
-  import Excellent
+  $ ghci
+  ghci> :l Excellent.hs
+  [1 of 1] Compiling Excellent        ( Excellent.hs, interpreted )
 
-  print $ filter intExcellent [1..100000]
+  ghci> print $ filter intExcellent [1..100]
+  [48]
+
+=head2 Version
+
+0.02
 
 =head2 Description
 
@@ -32,10 +39,13 @@ And so on.
 
 Excellent comes with F<main.hs> which will run forever, printing Excellent numbers to the command line.
 
-  ghc -O2 main.hs
-  ./main
-  [48,3468,140400,190476,216513,300625,334668,416768,484848,530901,
-  ...
+  $ ghc -O2 main.hs
+  $ ./main
+  [48,3468,140400,190476,216513,300625,334668,416768,484848,530901 ...
+
+=head2 See Also
+
+This module was inspired by brian d foy's L<articles|http://www.masteringperl.org/2015/05/computing-excellent-numbers/> on calculating Excellent Numbers with Perl, and Mark Jason Dominus' original L<article|http://blog.plover.com/2015/03/19/> on the same topic.
 
 =head2 Author
 

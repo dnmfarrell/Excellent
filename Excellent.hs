@@ -1,4 +1,4 @@
-module Excellent where
+module Excellent (intExcellent) where
 
 intLen :: Int -> Int
 intLen x = ceiling $ logBase 10 $ fromIntegral y
