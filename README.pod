@@ -1,0 +1,46 @@
+=pod
+
+=encoding utf8
+
+=head1 Excellent
+
+Excellent - Haskell module for calculating Excellent numbers
+
+=head2 Synopsis
+
+  import Excellent
+
+  print $ filter intExcellent [1..100000]
+
+=head2 Description
+
+F<Excellent.hs> exports a boolean function called C<intExcellent> which checks for Excellent numbers.
+
+An excellent number is any even digits-length integer where the difference between its two halves squared equals the original integer.
+
+For example, 48 is excellent:
+
+  48 = abs(4^2 - 8^2)
+
+So is 3468:
+
+  3468 = abs(34^2 - 68^2)
+
+And so on.
+
+=head2 Compiling
+
+Excellent comes with F<main.hs> which will run forever, printing Excellent numbers to the command line.
+
+  ghc -O2 main.hs
+  ./main
+  [48,3468,140400,190476,216513,300625,334668,416768,484848,530901,
+  ...
+
+=head2 Author
+
+David Farrell &copy; 2015
+
+=head2 License
+
+FreeBSD, see LICENSE
