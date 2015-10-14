@@ -49,7 +49,7 @@ Thanks to Tom Murphy and L<Andy Liang|https://github.com/aaliang> for helping wi
 
 =head2 See Also
 
-This module was inspired by brian d foy's L<articles|http://www.masteringperl.org/2015/05/computing-excellent-numbers/> on calculating Excellent Numbers with Perl, and Mark Jason Dominus' original L<article|http://blog.plover.com/2015/03/19/> on the same topic.
+This module was inspired by brian d foy's L<articles|http://www.masteringperl.org/2015/05/computing-excellent-numbers/> on calculating Excellent Numbers with Perl, and Mark Jason Dominus' original L<article|http://blog.plover.com/math/excellent.html> on the same topic.
 
 =head2 Author
 
