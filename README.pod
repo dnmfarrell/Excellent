@@ -12,16 +12,16 @@ Excellent - Haskell module for calculating Excellent numbers
   ghci> :l Excellent.hs
   [1 of 1] Compiling Excellent        ( Excellent.hs, interpreted )
 
-  ghci> print $ filter intExcellent [1..100]
+  ghci> filter (\x -> intExcellent (intSplit x)) [1..100]
   [48]
 
 =head2 Version
 
-0.02
+0.03
 
 =head2 Description
 
-F<Excellent.hs> exports a boolean function called C<intExcellent> which checks for Excellent numbers.
+F<Excellent.hs> exports a boolean function called C<intExcellent> which checks for Excellent numbers, and C<intSplit> which divides an integer into two halves.
 
 An excellent number is any even digits-length integer where the difference between its two halves squared equals the original integer.
 

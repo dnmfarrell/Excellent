@@ -3,4 +3,4 @@ import System.IO
 
 main = do
   hSetBuffering stdout NoBuffering
-  print $ filter intExcellent [1..]
+  print $ filter (\x -> intExcellent (intSplit x)) [1..]
