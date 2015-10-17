@@ -17,7 +17,7 @@ Excellent - Haskell module for calculating Excellent numbers
 
 =head2 Version
 
-0.03
+0.04
 
 =head2 Description
 
